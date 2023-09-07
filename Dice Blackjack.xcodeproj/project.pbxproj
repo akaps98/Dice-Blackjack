@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0C44292A9E4D0600D7AAD1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0C442B2A9E4D0600D7AAD1 /* Localizable.strings */; };
 		EA2D81842A85F0DB00BADA1D /* Dice_BlackjackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D81832A85F0DB00BADA1D /* Dice_BlackjackApp.swift */; };
 		EA2D81862A85F0DB00BADA1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D81852A85F0DB00BADA1D /* ContentView.swift */; };
 		EA2D81882A85F0DD00BADA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2D81872A85F0DD00BADA1D /* Assets.xcassets */; };
@@ -14,6 +15,28 @@
 		EA2D81962A85F0DD00BADA1D /* Dice_BlackjackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D81952A85F0DD00BADA1D /* Dice_BlackjackTests.swift */; };
 		EA2D81A02A85F0DD00BADA1D /* Dice_BlackjackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D819F2A85F0DD00BADA1D /* Dice_BlackjackUITests.swift */; };
 		EA2D81A22A85F0DD00BADA1D /* Dice_BlackjackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D81A12A85F0DD00BADA1D /* Dice_BlackjackUITestsLaunchTests.swift */; };
+		EA706D6A2A8A683F002E06E8 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA706D692A8A683F002E06E8 /* Modifiers.swift */; };
+		EA706D6C2A8A6AFC002E06E8 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA706D6B2A8A6AFC002E06E8 /* HowToPlayView.swift */; };
+		EA706D702A8ACC7E002E06E8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA706D6F2A8ACC7E002E06E8 /* GameView.swift */; };
+		EA706D722A8AD9B2002E06E8 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA706D712A8AD9B2002E06E8 /* Buttons.swift */; };
+		EA706D772A8ADF58002E06E8 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA706D762A8ADF58002E06E8 /* PlaySound.swift */; };
+		EA706D792A8AE2A1002E06E8 /* comic-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA706D782A8AE2A1002E06E8 /* comic-sound.mp3 */; };
+		EA706D7B2A8AE5A2002E06E8 /* daylight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA706D7A2A8AE5A1002E06E8 /* daylight.mp3 */; };
+		EA706D7D2A8AE5A8002E06E8 /* happy-days.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA706D7C2A8AE5A8002E06E8 /* happy-days.mp3 */; };
+		EA706D7F2A8AE91C002E06E8 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA706D7E2A8AE91C002E06E8 /* LeaderboardView.swift */; };
+		EA706D812A8AE9BC002E06E8 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA706D802A8AE9BC002E06E8 /* SettingView.swift */; };
+		EA706D872A8C2754002E06E8 /* button-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA706D862A8C2754002E06E8 /* button-click.mp3 */; };
+		EA706D8A2A8C2EEE002E06E8 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA706D892A8C2EEE002E06E8 /* Setting.swift */; };
+		EA706D932A8D4B3B002E06E8 /* roll-dice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA706D922A8D4B3B002E06E8 /* roll-dice.mp3 */; };
+		EA706D992A8DA79D002E06E8 /* lose-game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA706D982A8DA79D002E06E8 /* lose-game.mp3 */; };
+		EAF164032A8DB2F1008D0FE3 /* win-game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAF164022A8DB2F1008D0FE3 /* win-game.mp3 */; };
+		EAF164092A8F9AC3008D0FE3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF164082A8F9AC3008D0FE3 /* MainView.swift */; };
+		EAF164122A902BBB008D0FE3 /* ChunkFive-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAF164112A902BBB008D0FE3 /* ChunkFive-Regular.otf */; };
+		EAF164162A902C0A008D0FE3 /* Nice Tango.otf in Resources */ = {isa = PBXBuildFile; fileRef = EAF164152A902C0A008D0FE3 /* Nice Tango.otf */; };
+		EAF164182A903092008D0FE3 /* KGBlankSpaceSketch.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAF164172A903092008D0FE3 /* KGBlankSpaceSketch.ttf */; };
+		EAF1641A2A904095008D0FE3 /* game-playing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAF164192A904095008D0FE3 /* game-playing.mp3 */; };
+		EAF1641C2A90484A008D0FE3 /* PlayBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1641B2A90484A008D0FE3 /* PlayBackground.swift */; };
+		EAF1641E2A9049EF008D0FE3 /* champion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAF1641D2A9049EF008D0FE3 /* champion.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA0C442A2A9E4D0600D7AAD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EA0C442C2A9E4E6800D7AAD1 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EA2D81802A85F0DB00BADA1D /* Dice Blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Blackjack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2D81832A85F0DB00BADA1D /* Dice_BlackjackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_BlackjackApp.swift; sourceTree = "<group>"; };
 		EA2D81852A85F0DB00BADA1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +70,29 @@
 		EA2D819B2A85F0DD00BADA1D /* Dice BlackjackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice BlackjackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2D819F2A85F0DD00BADA1D /* Dice_BlackjackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_BlackjackUITests.swift; sourceTree = "<group>"; };
 		EA2D81A12A85F0DD00BADA1D /* Dice_BlackjackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_BlackjackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA2D81AE2A85FDA400BADA1D /* Dice-Blackjack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dice-Blackjack-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EA706D692A8A683F002E06E8 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		EA706D6B2A8A6AFC002E06E8 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		EA706D6F2A8ACC7E002E06E8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EA706D712A8AD9B2002E06E8 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		EA706D762A8ADF58002E06E8 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		EA706D782A8AE2A1002E06E8 /* comic-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "comic-sound.mp3"; sourceTree = "<group>"; };
+		EA706D7A2A8AE5A1002E06E8 /* daylight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daylight.mp3; sourceTree = "<group>"; };
+		EA706D7C2A8AE5A8002E06E8 /* happy-days.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "happy-days.mp3"; sourceTree = "<group>"; };
+		EA706D7E2A8AE91C002E06E8 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		EA706D802A8AE9BC002E06E8 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		EA706D862A8C2754002E06E8 /* button-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-click.mp3"; sourceTree = "<group>"; };
+		EA706D892A8C2EEE002E06E8 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		EA706D922A8D4B3B002E06E8 /* roll-dice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "roll-dice.mp3"; sourceTree = "<group>"; };
+		EA706D982A8DA79D002E06E8 /* lose-game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lose-game.mp3"; sourceTree = "<group>"; };
+		EAF164022A8DB2F1008D0FE3 /* win-game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "win-game.mp3"; sourceTree = "<group>"; };
+		EAF164082A8F9AC3008D0FE3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EAF164112A902BBB008D0FE3 /* ChunkFive-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChunkFive-Regular.otf"; sourceTree = "<group>"; };
+		EAF164152A902C0A008D0FE3 /* Nice Tango.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nice Tango.otf"; sourceTree = "<group>"; };
+		EAF164172A903092008D0FE3 /* KGBlankSpaceSketch.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGBlankSpaceSketch.ttf; sourceTree = "<group>"; };
+		EAF164192A904095008D0FE3 /* game-playing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-playing.mp3"; sourceTree = "<group>"; };
+		EAF1641B2A90484A008D0FE3 /* PlayBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBackground.swift; sourceTree = "<group>"; };
+		EAF1641D2A9049EF008D0FE3 /* champion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = champion.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +143,13 @@
 		EA2D81822A85F0DB00BADA1D /* Dice Blackjack */ = {
 			isa = PBXGroup;
 			children = (
+				EA706D882A8C2EDA002E06E8 /* Values */,
+				EA706D732A8ADE9F002E06E8 /* Sounds */,
+				EA706D6D2A8ACAC1002E06E8 /* Fonts */,
+				EA706D682A8A682F002E06E8 /* Helpers */,
+				EA706D672A8A5E7F002E06E8 /* Views */,
+				EA2D81AE2A85FDA400BADA1D /* Dice-Blackjack-Info.plist */,
 				EA2D81832A85F0DB00BADA1D /* Dice_BlackjackApp.swift */,
-				EA2D81852A85F0DB00BADA1D /* ContentView.swift */,
 				EA2D81872A85F0DD00BADA1D /* Assets.xcassets */,
 				EA2D81892A85F0DD00BADA1D /* Dice_Blackjack.entitlements */,
 				EA2D818A2A85F0DD00BADA1D /* Preview Content */,
@@ -127,6 +180,65 @@
 				EA2D81A12A85F0DD00BADA1D /* Dice_BlackjackUITestsLaunchTests.swift */,
 			);
 			path = "Dice BlackjackUITests";
+			sourceTree = "<group>";
+		};
+		EA706D672A8A5E7F002E06E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EAF164082A8F9AC3008D0FE3 /* MainView.swift */,
+				EA2D81852A85F0DB00BADA1D /* ContentView.swift */,
+				EA706D6B2A8A6AFC002E06E8 /* HowToPlayView.swift */,
+				EA706D802A8AE9BC002E06E8 /* SettingView.swift */,
+				EA706D7E2A8AE91C002E06E8 /* LeaderboardView.swift */,
+				EA706D6F2A8ACC7E002E06E8 /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA706D682A8A682F002E06E8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EA706D692A8A683F002E06E8 /* Modifiers.swift */,
+				EA706D712A8AD9B2002E06E8 /* Buttons.swift */,
+				EA706D762A8ADF58002E06E8 /* PlaySound.swift */,
+				EAF1641B2A90484A008D0FE3 /* PlayBackground.swift */,
+				EA0C442B2A9E4D0600D7AAD1 /* Localizable.strings */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EA706D6D2A8ACAC1002E06E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EAF164172A903092008D0FE3 /* KGBlankSpaceSketch.ttf */,
+				EAF164152A902C0A008D0FE3 /* Nice Tango.otf */,
+				EAF164112A902BBB008D0FE3 /* ChunkFive-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EA706D732A8ADE9F002E06E8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EAF1641D2A9049EF008D0FE3 /* champion.mp3 */,
+				EAF164192A904095008D0FE3 /* game-playing.mp3 */,
+				EAF164022A8DB2F1008D0FE3 /* win-game.mp3 */,
+				EA706D982A8DA79D002E06E8 /* lose-game.mp3 */,
+				EA706D922A8D4B3B002E06E8 /* roll-dice.mp3 */,
+				EA706D862A8C2754002E06E8 /* button-click.mp3 */,
+				EA706D782A8AE2A1002E06E8 /* comic-sound.mp3 */,
+				EA706D7A2A8AE5A1002E06E8 /* daylight.mp3 */,
+				EA706D7C2A8AE5A8002E06E8 /* happy-days.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		EA706D882A8C2EDA002E06E8 /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				EA706D892A8C2EEE002E06E8 /* Setting.swift */,
+			);
+			path = Values;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +327,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = EA2D81772A85F0DB00BADA1D;
 			productRefGroup = EA2D81812A85F0DB00BADA1D /* Products */;
@@ -234,7 +347,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA2D818C2A85F0DD00BADA1D /* Preview Assets.xcassets in Resources */,
+				EAF1641A2A904095008D0FE3 /* game-playing.mp3 in Resources */,
+				EA706D872A8C2754002E06E8 /* button-click.mp3 in Resources */,
+				EA706D7D2A8AE5A8002E06E8 /* happy-days.mp3 in Resources */,
+				EA706D792A8AE2A1002E06E8 /* comic-sound.mp3 in Resources */,
+				EAF164122A902BBB008D0FE3 /* ChunkFive-Regular.otf in Resources */,
+				EA706D932A8D4B3B002E06E8 /* roll-dice.mp3 in Resources */,
+				EAF164182A903092008D0FE3 /* KGBlankSpaceSketch.ttf in Resources */,
+				EA706D992A8DA79D002E06E8 /* lose-game.mp3 in Resources */,
 				EA2D81882A85F0DD00BADA1D /* Assets.xcassets in Resources */,
+				EA0C44292A9E4D0600D7AAD1 /* Localizable.strings in Resources */,
+				EAF164162A902C0A008D0FE3 /* Nice Tango.otf in Resources */,
+				EAF1641E2A9049EF008D0FE3 /* champion.mp3 in Resources */,
+				EA706D7B2A8AE5A2002E06E8 /* daylight.mp3 in Resources */,
+				EAF164032A8DB2F1008D0FE3 /* win-game.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +385,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA706D8A2A8C2EEE002E06E8 /* Setting.swift in Sources */,
+				EAF164092A8F9AC3008D0FE3 /* MainView.swift in Sources */,
+				EA706D7F2A8AE91C002E06E8 /* LeaderboardView.swift in Sources */,
+				EA706D6C2A8A6AFC002E06E8 /* HowToPlayView.swift in Sources */,
+				EA706D772A8ADF58002E06E8 /* PlaySound.swift in Sources */,
+				EA706D812A8AE9BC002E06E8 /* SettingView.swift in Sources */,
 				EA2D81862A85F0DB00BADA1D /* ContentView.swift in Sources */,
+				EA706D6A2A8A683F002E06E8 /* Modifiers.swift in Sources */,
+				EA706D722A8AD9B2002E06E8 /* Buttons.swift in Sources */,
+				EAF1641C2A90484A008D0FE3 /* PlayBackground.swift in Sources */,
 				EA2D81842A85F0DB00BADA1D /* Dice_BlackjackApp.swift in Sources */,
+				EA706D702A8ACC7E002E06E8 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +432,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		EA0C442B2A9E4D0600D7AAD1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0C442A2A9E4D0600D7AAD1 /* en */,
+				EA0C442C2A9E4E6800D7AAD1 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		EA2D81A32A85F0DD00BADA1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -359,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -417,6 +567,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Dice Blackjack/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice-Blackjack-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +605,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Dice Blackjack/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice-Blackjack-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

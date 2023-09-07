@@ -1,0 +1,61 @@
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 2
+  Author: Junsik Kang
+  ID: 3916884
+  Created  date: 08/29/2023
+  Last modified: 08/29/2023
+  Acknowledgement:
+*/
+
+"Enter your name!" = "닉네임을 입력하세요!";
+"Let's gamble!" = "게임 시작!";
+"Leaderboard" = "리더보드";
+"How to play?" = "플레이 방법";
+"Bit a variation from Blackjack" = "블랙잭 룰에서 약간 변형되었습니다";
+"This game uses dices instead of cards. \nAlso, this game aims to sum of 24." = "이 게임은 카드 대신 주사위를 사용합니다. \n또한, 이 게임은 주사위의 합 24를 목표로 합니다.";
+"Rule" = "규칙";
+"- Dealer rolls the dices first." = "- 딜러가 먼저 주사위를 굴립니다.";
+"(the number of dices dealer rolls depends on the difficulty)" = "(딜러가 먼저 굴리는 주사위의 갯수는 난이도에 따라 다릅니다.)";
+"- You roll the dices as you wants. " = "- 당신이 굴리고 싶은 만큼 주사위를 굴립니다.";
+"- If the sum achieves 24, the round ends and you get double points." = "- 만약 주사위의 합이 24를 달성할 경우, 라운드가 종료되며 2점을 얻습니다.";
+"(However, you must never exceed 24!)" = "(하지만 24를 넘지 않도록 주의하세요!)";
+"- After you finish to roll, press the 'Stop' button to end your turn." = "- 주사위를 모두 굴리면, '종료' 버튼을 눌러서 턴을 종료하세요.";
+"- Dealer continues to roll." = "- 딜러가 계속 주사위를 굴립니다.";
+"(Dealer to roll unconditionally until the sum of the dices is eqaul to or greater than sum of 21. If dealer's sum of dices exceeds 24, you will win.)" = "(딜러는 주사위의 합이 21이상일 때 까지 계속 굴려야 합니다. 만약 딜러의 합이 24를 넘을 경우, 당신이 승리합니다.)";
+"- Compare the sum of your dices with the sum of the dealer's dices. If your sum is smaller than dealer's, you lose \n1 point. If it is greater than, you win 1 point." = "- 당신과 딜러의 주사위의 합을 비교합니다. 만약 당신의 주사위의 합이 딜러보다 작을 경우, 1점을 잃습니다. 클 경우, 1점을 획득합니다.";
+"- Beat the dealer by achieving the target score!" = "- 목표 점수를 달성하여 딜러를 이기세요!";
+"(The lower the total round, the higher the ranking on the leaderboard!)" = "(총 라운드가 적을수록 랭킹이 높습니다!)";
+"Got it!" = "알겠습니다!";
+"Choose the difficulty you want!" = "난이도를 선택하세요!";
+"Easy: The target score is 15 points!\nYou can see the four dice on the dealer before rolling the dice.\nYou will earn score if you \ndraw with a dealer!" = "이지: 목표 점수는 15점입니다!\n당신은 딜러의 주사위 네 개를 보고\n시작할 수 있습니다. 당신이 딜러와\n비길 경우 당신은 점수를 획득합니다!";
+"Hard: The target score is 30 points!\nYou can see only two dice on the dealer before rolling the dice!\nYou will lose score if you \ndraw with a dealer!" = "하드: 목표 점수는 30점입니다!\n당신은 딜러의 주사위 두 개를 보고\n시작할 수 있습니다. 당신이 딜러와\n비길 경우 당신은 점수를 잃습니다!";
+"Easy" = "이지";
+"Hard" = "하드";
+"Choose the language!" = "언어를 선택하세요!";
+"Leaderboard" = "리더보드";
+"Best rounds:" = "베스트 라운드:";
+"Total Games:" = "총 게임 수:";
+"Total Rounds:" = "총 라운드:";
+"Achievements" = "업적";
+"User: " = "이름: ";
+"Difficulty: " = "난이도: ";
+"Round: " = "라운드: ";
+"Score: " = "점수: ";
+"Dealer's sum of dices: " = "딜러 주사위 총 합: ";
+"Your sum of dices: " = "당신의 주사위 총 합: ";
+"Start" = "시작";
+"Roll" = "굴리기";
+"Stop" = "멈추기";
+"YOU LOSE" = "패배";
+"You are beaten by dealer!\nYou are being loser :P!" = "당신은 패배하였습니다!\n루저가 되셨네요 :P";
+"NEXT ROUND" = "다음 라운드";
+"YOU WIN" = "승리";
+"You've reached sum of 24!\nYou've gotten double scored :D!" = "24를 달성하였습니다!\n2점을 획득합니다 :D!";
+"You've beaten stupid dealer!\nBe a champion :D!" = "딜러를 이겼습니다!\n챔피언이 되세요 :D!";
+"YOU ARE CHAMPION!" = "챔피언입니다!";
+"Here comes our hero!\nWelcome champion!" = "우리의 챔피언입니다!\n어서 오세요!";
+
+"Back to Home" = "메인으로";

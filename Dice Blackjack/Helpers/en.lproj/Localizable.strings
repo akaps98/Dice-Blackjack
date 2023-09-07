@@ -1,0 +1,61 @@
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 2
+  Author: Junsik Kang
+  ID: 3916884
+  Created  date: 08/29/2023
+  Last modified: 08/29/2023
+  Acknowledgement:
+*/
+
+"Enter your name!" = "Enter your name!";
+"Let's gamble!" = "Let's gamble!";
+"Leaderboard" = "Leaderboard";
+"How to play?" = "How to play?";
+"Bit a variation from Blackjack" = "Bit a variation from Blackjack";
+"This game uses dices instead of cards. \nAlso, this game aims to sum of 24." = "This game uses dices instead of cards. \nAlso, this game aims to sum of 24.";
+"Rule" = "Rule";
+"- Dealer rolls the dices first." = "- Dealer rolls the dices first.";
+"(the number of dices dealer rolls depends on the difficulty)" = "(the number of dices dealer rolls depends on the difficulty)";
+"- You roll the dices as you wants. " = "- You roll the dices as you wants. ";
+"- If the sum achieves 24, the round ends and you get double points." = "- If the sum achieves 24, the round ends and you get double points.";
+"(However, you must never exceed 24!)" = "(However, you must never exceed 24!)";
+"- After you finish to roll, press the 'Stop' button to end your turn." = "- After you finish to roll, press the 'Stop' button to end your turn.";
+"- Dealer continues to roll." = "- Dealer continues to roll.";
+"(Dealer to roll unconditionally until the sum of the dices is eqaul to or greater than sum of 21. If dealer's sum of dices exceeds 24, you will win.)" = "(Dealer to roll unconditionally until the sum of the dices is eqaul to or greater than sum of 21. If dealer's sum of dices exceeds 24, you will win.)";
+"- Compare the sum of your dices with the sum of the dealer's dices. If your sum is smaller than dealer's, you lose \n1 point. If it is greater than, you win 1 point." = "- Compare the sum of your dices with the sum of the dealer's dices. If your sum is smaller than dealer's, you lose \n1 point. If it is greater than, you win 1 point.";
+"- Beat the dealer by achieving the target score!" = "- Beat the dealer by achieving the target score!";
+"(The lower the total round, the higher the ranking on the leaderboard!)" = "(The lower the total round, the higher the ranking on the leaderboard!)";
+"Got it!" = "Got it!";
+"Choose the difficulty you want!" = "Choose the difficulty you want!";
+"Easy: The target score is 15 points!\nYou can see the four dice on the dealer before rolling the dice.\nYou will earn score if you \ndraw with a dealer!" = "Easy: The target score is 15 points!\nYou can see the four dice on the dealer before rolling the dice.\nYou will earn score if you \ndraw with a dealer!";
+"Hard: The target score is 30 points!\nYou can see only two dice on the dealer before rolling the dice!\nYou will lose score if you \ndraw with a dealer!" = "Hard: The target score is 30 points!\nYou can see only two dice on the dealer before rolling the dice!\nYou will lose score if you \ndraw with a dealer!";
+"Easy" = "Easy";
+"Hard" = "Hard";
+"Choose the language!" = "Choose the language!";
+"Leaderboard" = "Leaderboard";
+"Best rounds:" = "Best rounds:";
+"Total Games:" = "Total Games:";
+"Total Rounds:" = "Total Rounds:";
+"Achievements" = "Achievements";
+"User: " = "User: ";
+"Difficulty: " = "Difficulty: ";
+"Round: " = "Round: ";
+"Score: " = "Score: ";
+"Dealer's sum of dices: " = "Dealer's sum of dices: ";
+"Your sum of dices: " = "Your sum of dices: ";
+"Start" = "Start";
+"Roll" = "Roll";
+"Stop" = "Stop";
+"YOU LOSE" = "YOU LOSE";
+"You are beaten by dealer!\nYou are being loser :P!" = "You are beaten by dealer!\nYou are being loser :P!";
+"NEXT ROUND" = "NEXT ROUND";
+"YOU WIN" = "YOU WIN";
+"You've reached sum of 24!\nYou've gotten double scored :D!" = "You've reached sum of 24!\nYou've gotten double scored :D!";
+"You've beaten stupid dealer!\nBe a champion :D!" = "You've beaten stupid dealer!\nBe a champion :D!";
+"YOU ARE CHAMPION!" = "YOU ARE CHAMPION!";
+"Here comes our hero!\nWelcome champion!" = "Here comes our hero!\nWelcome champion!";
+
+"Back to Home" = "Back to Home";
